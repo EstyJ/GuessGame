@@ -24,14 +24,14 @@ int main(void)
 	if(guessnum == num)
 	{
 		puts("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
-		printf("Congratulation you guessed right!!\n");
+		puts("Congratulation you guessed right!!\n");
 		puts("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
 	}
 
 	else
 	{
 		puts("**********************");
-		printf("Sorry, Try Harder!!\n");
+		puts("Sorry, Try Harder!!\n");
 		puts("**********************");
 	}
 
